@@ -7,7 +7,6 @@ class Movies(models.Model):
 	for rating, mapping for each rating is done to its string
 	watched on updates the watched date of the movie if provided otherwise stamps with current date
 	"""
-
 	movie_name = models.CharField(max_length=256)
 	WORSE = 1
 	BAD = 2

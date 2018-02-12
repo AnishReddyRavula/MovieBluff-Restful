@@ -9,4 +9,4 @@ class MovieDataSerializer(serializers.ModelSerializer):
         """Meta class to map serializer's fields with the model fields."""
         model = Movies
         fields = ('id', 'movie_name', 'movie_rating', 'watched', 'watched_on')
-        read_only_fields = (['id'])
+        read_only_fields = (['id']) 
