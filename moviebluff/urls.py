@@ -18,9 +18,10 @@ from django.contrib import admin
 from django.conf.urls import include
 
 from movies.views import CreateView
-# from movies.views import movie_detail
+from movies.views import DetailsView
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',  CreateView.as_view(), name='list'),
-    # url(r'^(?P<pk>[0-9]+)$', movie_detail, name='detail'),
+    url(r'^(?P<pk>[0-9]+)$', DetailsView.as_view(), name='details'),
 ]
