@@ -1,5 +1,5 @@
 # MovieBluff-Restful
-Implementation of MovieBluff Restful API
+Implementation of [MovieBluff](https://github.com/AnishReddyRavula/MovieBluff) to Restful API
 
 ## This Restful API is an endpoint server
 
@@ -28,7 +28,7 @@ Or by starting the server opening the link in browser we can handle all the oper
 
 *  Clone the repository
 *  Install python and other requirements
-*  run ```python manage.py makemigrations``` and ```python manage.py migrate``` to start the database with the model configuration
+*  run ```python manage.py makemigrations``` and ```python manage.py migrate``` in project directory to start the database with the model configuration
 *  start the server with ```python manage.py runserver``` command to start the server
 *  open the link address in browser to start using the API
 
