@@ -28,6 +28,15 @@ Or by starting the server opening the link in browser we can handle all the oper
 
 *  Clone the repository
 *  Install python and other requirements
-*  run >python manage.py makemigrations and >python manage.py migrate to start the database with the model configuration
-*  start the server with >python manage.py runserver command to start the server
+*  run ```python manage.py makemigrations``` and ```python manage.py migrate``` to start the database with the model configuration
+*  start the server with ```python manage.py runserver``` command to start the server
 *  open the link address in browser to start using the API
+
+## Authors
+
+* **Anish Reddy Ravula** - *Initial work* - [AnishReddyRavula](https://github.com/AnishReddyRavula)
+
+## Acknowledgments
+
+* Django documentation
+* Django Rest Framework
