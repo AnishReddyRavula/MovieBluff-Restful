@@ -9,10 +9,10 @@ This server takes a request in JSON format with movie name, movie rating, watche
 
 Create, Read, Update, Delete operations can be performed by sending GET, POST, PUT and Delete requests\n
 Or by starting the server opening the link in browser we can handle all the operations( djangorestframework will handle rendering )
-..* movie name (max 256 charachters)
-..* movie rating (WORSE = 1, BAD = 2, AVERAGE = 3, GOOD = 4, EXCELLENT = 5)
-..* movie watched status (True or False)
-..* movie watched date (if included then included date else current date)
+..*movie name (max 256 charachters)
+..*movie rating (WORSE = 1, BAD = 2, AVERAGE = 3, GOOD = 4, EXCELLENT = 5)
+..*movie watched status (True or False)
+..*movie watched date (if included then included date else current date)
 
 ## Requirements
 
