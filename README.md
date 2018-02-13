@@ -17,7 +17,7 @@ Or by starting the server opening the link in browser we can handle all the oper
 
 ## Requirements
 
-Install python 3.5 and then install packages with commans ```pip install < requirements.txt```
+Install python 3.5 and then install packages with commans ```pip install -r requirements.txt```
 
 * Python=3.5 or above
 * certifi==2016.2.28
