@@ -40,5 +40,5 @@ Install python 3.5 and then install packages with commans ```pip install -r requ
 
 ## Acknowledgments
 
-* Django documentation
-* Django Rest Framework
+* [Django documentation](https://docs.djangoproject.com/en/2.0/)
+* [Django Rest Framework](http://www.django-rest-framework.org/)
